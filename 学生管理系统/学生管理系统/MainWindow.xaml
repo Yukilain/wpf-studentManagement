@@ -1,0 +1,19 @@
+﻿<Window x:Class="学生管理系统.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:学生管理系统"
+        mc:Ignorable="d"
+        Title="登录界面" Height="450" Width="800">
+    <Grid>
+        <Button Content="登录" HorizontalAlignment="Left" Margin="265,292,0,0" VerticalAlignment="Top" Width="221" Height="52" Click="Button_Click"/>
+        <TextBox x:Name="userName" HorizontalAlignment="Left" Margin="319,129,0,0" TextWrapping="Wrap" Text="&#xD;&#xA;" VerticalAlignment="Top" Width="221" Height="35" TextChanged="userName_TextChanged"/>
+        <TextBlock HorizontalAlignment="Left" Margin="247,129,0,0" TextWrapping="Wrap" Text="用户名：" VerticalAlignment="Top" Height="30" Width="67" FontFamily="Arial Black"/>
+        <TextBlock HorizontalAlignment="Left" Margin="247,197,0,0" TextWrapping="Wrap" Text="密码：" VerticalAlignment="Top" FontFamily="Arial Black"/>
+        <TextBlock HorizontalAlignment="Center" 
+            Block.TextAlignment="Center" Height="60" FontFamily="./#仿宋_GB2312"
+                   TextWrapping="Wrap" Text="学生管理系统" FontSize="50" VerticalAlignment="Top" Width="800" RenderTransformOrigin="0.257,0.497" Margin="0,24,0,0"/>
+        <PasswordBox x:Name="passwordbox" HorizontalAlignment="Left" Margin="319,182,0,0" VerticalAlignment="Top" Width="221" Height="30"/>
+    </Grid>
+</Window>
